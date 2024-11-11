@@ -1,0 +1,6 @@
+build:
+  version: "1.0.0"
+invoices:
+  message: "invoices"
+server:
+  port: 8081
