@@ -2,9 +2,9 @@ server:
   port:8070
 eureka:
   instance:
-    hostname:localhost
+    hostname: localhost
   client:
     fetchRegistry: false
     registerWithEureka: false
     serviceUrl:
-     defultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
